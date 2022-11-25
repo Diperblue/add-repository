@@ -1,0 +1,10 @@
+#!/usr/bin/env python3
+
+import os
+
+dic_versions = 
+
+if "root" in os.system("whoami"):
+    output = os.system("sudo cat /etc/*-release")
+    for line in output:
+        line.split('=')
